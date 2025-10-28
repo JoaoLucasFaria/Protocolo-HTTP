@@ -16,6 +16,8 @@
 #include <dirent.h>
 #include <sys/stat.h>
 #include <stdarg.h>
+#include <sys/time.h>
+#include <netdb.h>
 
 const char* guess_mime(const char *path);
 #endif
