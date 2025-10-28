@@ -190,14 +190,14 @@ int main(int argc, char **argv)
     close(fd);
     struct stat st;
     
+    
     /*
     // se o arquivo estiver vazio, remove (erro)
     if (stat(fullpath, &st) == 0 && st.st_size == 0)
     {
         remove(fullpath);
         fprintf(stderr, "[aviso] arquivo removido por estar vazio (erro HTTP)\n");
-    }
-    */
+    }*/
 
     if (!header_done)
     {
