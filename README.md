@@ -25,7 +25,9 @@ Execução:
 
 Exemplos:
 - ./meu_navegador http://localhost:5000/foto.jpg
-- ./meu_navegador http://localhost:5000/arq1.txt
+- ./meu_navegador http://localhost:5000/sem/flavinho.png
+- ./meu_navegador http://localhost:5000/sem/arq1.txt
+- ./meu_navegador http://localhost:5000/sem/arq2.txt
 - ./meu_navegador http://localhost:5000/naoexiste.xyz
 
 ---
@@ -50,15 +52,6 @@ Funcionalidades:
 Exemplo:
 ./meu_servidor 5000 ./www
 (acessar em um navegador: http://localhost:5000/)
-
----
-
-## Testes Realizados
-- Página inicial com index.html e imagem.
-- Download de arquivos de texto e imagens.
-- Diretório sem index.html listando arquivos.
-- Resposta 404 tratada corretamente.
-- Cliente salvando apenas quando status 200.
 
 ---
 
